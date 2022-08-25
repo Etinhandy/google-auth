@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+  position: absolute;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  width: 581px;
+  height: 773px;
+  background-color: white;
+  margin: 163px 222px 557px 221px;
+  display: flexbox;
+ 
+}
+
+/* .top{
+    position: relative;
+    left: 38%;
+} */
+
+.top h3{
+    position: relative;
+    padding-top: 41px;
+    left:44% ;
+
+}
+
+.top p{
+    position: relative;
+    padding-top: 10px;
+    left:32%;
+}
+
+.top2 p{
+    position: relative;
+    left: 22% ;
+    padding-top: 10px;
+     
+}
+
+.form{
+    padding-top: 4em;
+}
+
+/* .input{
+    display: flexbox; */
+
+#fName{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    border-radius: 8px; 
+}
+.fName{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    padding-left: 40px;
+
+}
+#lName{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    border-radius: 8px;
+
+}
+
+.lName{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+}
+#email{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+.email{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+}
+#password{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    border-radius: 8px;
+
+}
+.password{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+}
+#confirmpassword{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    border-radius: 8px;
+
+}
+.confirmpassword{
+    padding-top:8px ;
+    padding-right:80px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+}
+
+.btn{
+    padding-top:8px ;
+    padding-right:90px ;
+    padding-bottom:8px ;
+    margin-left: 40px;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 8px;
+    border: 1px solid white;
+
+}
+.btn a{
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 3px;
+    text-decoration: none;
+    
+}
